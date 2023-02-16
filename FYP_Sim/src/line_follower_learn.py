@@ -6,7 +6,7 @@ from gym.envs.registration import register
 
 
 register(
-    id='LineFollowerEnv',
+    id='my-environment-v0',
     entry_point='line_follower_env:LineFollowerEnv',
     )
 
@@ -20,7 +20,7 @@ if not os.path.exists(models_dir):
 if not os.path.exists(logdir):
 	os.makedirs(logdir)
 
-env = LineFollowerEnv()#render_mode="human"
+env = my-environment-v0()#render_mode="human"
 env.reset()
 
 model = PPO('MlpPolicy', env, verbose=1, tensorboard_log=logdir)

@@ -17,7 +17,7 @@ if not os.path.exists(logdir):
 env = LineFollowerEnv()#render_mode="human"
 env.reset()
 
-model = PPO('MlpPolicy', env, verbose=1, tensorboard_log=logdir,device="cuda")
+model = PPO('MlpPolicy', env, verbose=1, tensorboard_log=logdir,device="cpu")
 
 TIMESTEPS = 10000
 iters = 0

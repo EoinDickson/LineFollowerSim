@@ -2,7 +2,13 @@ from stable_baselines3 import PPO
 import os
 from line_follower_env import LineFollowerEnv
 import time
+from gym.envs.registration import register
 
+
+register(
+    id='LineFollowerEnv',
+    entry_point='line_follower_env:LineFollowerEnv',
+    )
 
 
 models_dir = f"models/{int(time.time())}/"

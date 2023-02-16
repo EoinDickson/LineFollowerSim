@@ -215,8 +215,8 @@ class Robot(pygame.sprite.Sprite):
 
 
     def update(self,event):
-        print("Action Value : ")
-        print(event)
+#         print("Action Value : ")
+#         print(event)
 
         # match event:
         #     case 0:

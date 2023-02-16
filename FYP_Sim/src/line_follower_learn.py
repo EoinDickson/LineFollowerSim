@@ -2,13 +2,7 @@ from stable_baselines3 import PPO
 import os
 from line_follower_env import LineFollowerEnv
 import time
-from gym.envs.registration import register
 
-
-register(
-    id='my-environment-v0',
-    entry_point='line_follower_env:LineFollowerEnv',
-    )
 
 
 models_dir = f"models/{int(time.time())}/"
@@ -20,7 +14,7 @@ if not os.path.exists(models_dir):
 if not os.path.exists(logdir):
 	os.makedirs(logdir)
 
-env = my-environment-v0()#render_mode="human"
+env = LineFollowerEnv()#render_mode="human"
 env.reset()
 
 model = PPO('MlpPolicy', env, verbose=1, tensorboard_log=logdir)

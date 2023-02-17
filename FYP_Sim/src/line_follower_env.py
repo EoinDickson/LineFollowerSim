@@ -70,14 +70,18 @@ class LineFollowerEnv(gym.Env):
             terminated = True
             
         # Reward Calculation
+        self.m2p = 3779.52 # meters to pixels
         abs_v = abs(self.player.sprite.vr + self.player.sprite.vl )
+        speed = 0.02*self.m2p * 2
+        currSpeed = self.player.sprite.vl + self.player.sprite.vr
 
+        ratioSpeed = currSpeed/speed
 
         if self.reward < -10:
             terminated = True
 
         if terminated == False and (abs_v > 0):
-            self.reward += 1
+            self.reward += currSpeed* 1
         elif terminated == False and (self.player.sprite.vr + self.player.sprite.vl <= 0):
             self.reward -= 5
 
@@ -85,10 +89,12 @@ class LineFollowerEnv(gym.Env):
             self.reward -= 1000
 
         if self.prev_vl == self.player.sprite.vl and self.prev_vr == self.player.sprite.vr:
-            self.reward += .1
+            # self.reward += .1
+            1+1
         else:
             self.prev_vl = self.player.sprite.vl
             self.prev_vr = self.player.sprite.vr
+
 
         if self.sensor_value[2]:
             self.reward += .2

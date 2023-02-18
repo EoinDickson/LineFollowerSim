@@ -89,8 +89,7 @@ class LineFollowerEnv(gym.Env):
             self.reward -= 1000
 
         if self.prev_vl == self.player.sprite.vl and self.prev_vr == self.player.sprite.vr:
-            # self.reward += .1
-            1+1
+            self.reward += .1
         else:
             self.prev_vl = self.player.sprite.vl
             self.prev_vr = self.player.sprite.vr

@@ -2,13 +2,13 @@ from line_follower_env import LineFollowerEnv
 from stable_baselines3 import PPO
 import gym
 
-models_dir = "models/1675506006"
+models_dir = "models/1676644203"
 
 env = LineFollowerEnv(render_mode="human")
 
 env.reset()
 
-model_path = f"{models_dir}/22730000"
+model_path = f"{models_dir}/4160000"
 model = PPO.load(model_path, env = env)
 
 episodes = 500

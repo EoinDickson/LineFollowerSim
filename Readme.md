@@ -6,7 +6,7 @@ A brief description of what this project does and who it's for
 
 ## Demo
 
-<img src="media/Simulator.gif" width="500">
+<img src="media/Simulator.gif">
 
 
 ## Run Locally

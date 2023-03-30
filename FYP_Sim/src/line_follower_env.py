@@ -7,7 +7,6 @@ import math
 MARGIN = 50
 STARTPOS = (300,60)
 
-
 class LineFollowerEnv(gym.Env):   
     metadata = {"render_modes": ["human", "rgb_array"],"render_fps": 60}
 
@@ -26,6 +25,11 @@ class LineFollowerEnv(gym.Env):
         self.prev_vr = 0
         self.max_time = 60*50
 
+        self.USING_HIS = False
+        self.OBS = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
+
+
+
 
 
         # Import Sprites
@@ -40,13 +44,18 @@ class LineFollowerEnv(gym.Env):
 
         # Observation Space
         # self.observation_space = spaces.Box(low =-10000,high = +10000,shape=(5+5,),dtype=np.float32)
-        self.observation_space = spaces.Box(low =0,high = 1,shape=(5,),dtype=np.float32)
+        self.observation_space = spaces.Box(low =0,high = 1,shape=(5*6,),dtype=np.float32)
 
 
         # Action Space
         # self.action_space = spaces.Discrete(6)
         # New Action Space
-        self.action_space = spaces.Discrete(10)
+        # self.action_space = spaces.Discrete(10)
+        # self.action_space = spaces.Box([0.], [1.], (2,),dtype=np.float32) # Continous
+        # Working Discrete
+        self.action_space = spaces.Discrete(4)
+
+        # Working Continous
         # self.action_space = spaces.Box(low=0, high=1, shape=(2,), dtype=np.float32)
 
         # Checks that render_mode is "None" or equal to one of the rendoer modes in metadata
@@ -64,44 +73,90 @@ class LineFollowerEnv(gym.Env):
         for i in range(5): self.sensor_value[i] = self.sensor[i].sprite.update(self.player.sprite,self.obstacle)
 
         # Check if Done
-        if any(self.sensor_value) :
-            terminated = False
-        else:
-            terminated = True
+        # if any(self.sensor_value) :
+        #     terminated = False
+        # else:
+        #     terminated = True
+
             
         # Reward Calculation
-        self.m2p = 3779.52 # meters to pixels
-        abs_v = abs(self.player.sprite.vr + self.player.sprite.vl )
-        speed = 0.02*self.m2p * 2
-        currSpeed = self.player.sprite.vl + self.player.sprite.vr
+        # self.m2p = 3779.52 # meters to pixels
+        # abs_v = abs(self.player.sprite.vr + self.player.sprite.vl )
+        # speed = 0.02*self.m2p * 2
+        # currSpeed = self.player.sprite.vl + self.player.sprite.vr
 
-        ratioSpeed = currSpeed/speed
+        # ratioSpeed = currSpeed/speed
 
-        if self.reward < -10:
-            terminated = True
+        # if self.reward < -10:
+        #     terminated = True
 
-        if terminated == False and (abs_v > 0):
-            self.reward += currSpeed* 1
-        elif terminated == False and (self.player.sprite.vr + self.player.sprite.vl <= 0):
-            self.reward -= 5
+        # if terminated == False and (abs_v > 0):
+        #     self.reward += currSpeed* 1
+        # elif terminated == False and (self.player.sprite.vr + self.player.sprite.vl <= 0):
+        #     self.reward -= 5
 
-        if terminated == True:
-            self.reward -= 1000
+        # if terminated == True:
+        #     self.reward -= 1000
 
-        if self.prev_vl == self.player.sprite.vl and self.prev_vr == self.player.sprite.vr:
-            self.reward += .1
-        else:
-            self.prev_vl = self.player.sprite.vl
-            self.prev_vr = self.player.sprite.vr
+        # if self.prev_vl == self.player.sprite.vl and self.prev_vr == self.player.sprite.vr:
+        #     self.reward += .1
+        # else:
+        #     self.prev_vl = self.player.sprite.vl
+        #     self.prev_vr = self.player.sprite.vr
 
 
-        if self.sensor_value[2]:
-            self.reward += .2
+        # if self.sensor_value[2]:
+        #     self.reward += .2
         
 
 
+
+
+        if self.OBS[0] == 0 and self.OBS[1] == 0 and self.OBS[2] == 0 and self.OBS[3] == 0 and self.OBS[4] == 0 :
+            if self.OBS[6] == 1 or self.OBS[7] == 1 or self.OBS[8] == 1:
+                self.USING_HIS = True
+
+        if self.USING_HIS == False:
+            if self.sensor_value[0] or self.sensor_value[1] or self.sensor_value[2] or self.sensor_value[3] or self.sensor_value[4] :
+                terminated = False
+            else:
+                terminated = True
+        
+        if self.USING_HIS == True and all(self.OBS) == 0:
+            terminated = True
+            
+
+            
+        if terminated == False and self.player.sprite.vr + self.player.sprite.vl > 0:
+            self.reward += .1
+
+        if terminated == False and self.player.sprite.vr + self.player.sprite.vl <= 0 and self.max_time != 60*50:
+            # self.reward -= .2
+            terminated = True
+
         if self.max_time == 0:
             terminated = True
+
+        
+
+#         if robot on line and velocity is not equal to 0
+# 	reward += .1;
+
+# if robot on line and velocity is less than 0 
+# 	reward -= .1;
+
+# if robot is off the line 
+# 	reward -=.5;
+
+# if robot is off line and last known sensor was center 3 sensors
+# 	do not terminate
+
+# if robot off line for all of the history
+# 	terminate
+
+# if robot is off the line and the last known sensor was sensor 0 or 5 
+# 	terminate
+
 
         
 
@@ -127,6 +182,10 @@ class LineFollowerEnv(gym.Env):
 
         # Reset Time
         self.max_time = 60*50
+
+        self.USING_HIS = False
+        self.OBS = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
+
 
         # Update Sensors
         for i in range(5): self.sensor_value[i] = self.sensor[i].sprite.update(self.player.sprite,self.obstacle)
@@ -158,8 +217,17 @@ class LineFollowerEnv(gym.Env):
                 self.sensor_value[2],
                 self.sensor_value[3],
                 self.sensor_value[4]]
+        
+        for i in range(5):
+            self.OBS.insert(0,self.sensor_value[4-i])
+            self.OBS.pop()
+            # print('new sensor')
+            # print(self.sensor_value[4-i])
 
-        return np.array(obs,dtype=np.float32)
+
+        
+
+        return np.array(self.OBS,dtype=np.float32)
 
     def render(self):
         if self.render_mode == "rgb_array":
@@ -244,28 +312,51 @@ class Robot(pygame.sprite.Sprite):
         #         self.vr = 0.01*self.m2p
         #     case 9:
         #         self.vr = 0.02*self.m2p
+        # speed = 0.02*self.m2p
+        # match event:
+        #     case 0:
+        #         self.vl = 0
+        #     case 1:
+        #         self.vl = .25*speed
+        #     case 2:
+        #         self.vl = .5*speed
+        #     case 3:
+        #         self.vl = .75*speed
+        #     case 4:
+        #         self.vl = speed
+        #     case 5:
+        #         self.vr = 0
+        #     case 6:
+        #         self.vr = .25*speed
+        #     case 7:
+        #         self.vr = .5*speed
+        #     case 8:
+        #         self.vr = .75*speed
+        #     case 9:
+        #         self.vr = speed
+
+        #  Discrete
         speed = 0.02*self.m2p
         match event:
             case 0:
                 self.vl = 0
             case 1:
-                self.vl = .25*speed
-            case 2:
-                self.vl = .5*speed
-            case 3:
-                self.vl = .75*speed
-            case 4:
                 self.vl = speed
-            case 5:
+            case 2:
                 self.vr = 0
-            case 6:
-                self.vr = .25*speed
-            case 7:
-                self.vr = .5*speed
-            case 8:
-                self.vr = .75*speed
-            case 9:
+            case 3:
                 self.vr = speed
+
+        # # Continous
+        # speed = 0.02*self.m2p
+        
+        # self.vl = speed*event[0]
+        # self.vr = speed*event[1]
+
+
+
+
+            
 
         # self.vl = event[0] * 30
         # self.vr = event[1] * 30

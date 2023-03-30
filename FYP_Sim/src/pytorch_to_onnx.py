@@ -1,6 +1,6 @@
 import torch as th
 
-from stable_baselines3 import DQN
+from stable_baselines3 import PPO
 
 
 class OnnxablePolicy(th.nn.Module):
@@ -18,12 +18,12 @@ class OnnxablePolicy(th.nn.Module):
 
 
 # Example: model = PPO("MlpPolicy", "Pendulum-v1")
-models_dir = "models/1673461222"
+models_dir = "models/1676991543"
 
 
 
-model_path = f"{models_dir}/2780000"
-model = DQN.load(model_path)
+model_path = f"{models_dir}/2500000"
+model = PPO.load(model_path)
 onnxable_model = OnnxablePolicy(
     model.policy.mlp_extractor, model.policy.action_net, model.policy.value_net
 )
@@ -33,7 +33,7 @@ dummy_input = th.randn(1, *observation_size)
 th.onnx.export(
     onnxable_model,
     dummy_input,
-    "my_ppo_model.onnx",
+    "historyModel.onnx",
     opset_version=9,
     input_names=["input"],
 )

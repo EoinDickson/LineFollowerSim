@@ -1,0 +1,9 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'REPORT.blg'
+[51] biber-darwin:340> INFO - === Wed Mar 15, 2023, 15:06:04
+[62] Biber.pm:418> INFO - Reading 'REPORT.bcf'
+[127] Biber.pm:972> INFO - Found 1 citekeys in bib section 0
+[139] Biber.pm:4383> INFO - Processing section 0
+[148] Biber.pm:4574> INFO - Looking for bibtex file 'StatusReport.bib' for section 0
+[276] Utils.pm:409> ERROR - Cannot find 'StatusReport.bib'!
+[277] Biber.pm:135> INFO - ERRORS: 1

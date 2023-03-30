@@ -1,0 +1,15 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'StatusReport.blg'
+[56] biber-darwin:340> INFO - === Wed Mar 15, 2023, 15:04:59
+[69] Biber.pm:418> INFO - Reading 'StatusReport.bcf'
+[133] Biber.pm:972> INFO - Found 1 citekeys in bib section 0
+[144] Biber.pm:4383> INFO - Processing section 0
+[153] Biber.pm:4574> INFO - Looking for bibtex file 'StatusReport.bib' for section 0
+[154] bibtex.pm:1713> INFO - LaTeX decoding ...
+[157] bibtex.pm:1518> INFO - Found BibTeX data source 'StatusReport.bib'
+[187] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[188] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[188] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[188] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[189] bbl.pm:654> INFO - Writing 'StatusReport.bbl' with encoding 'UTF-8'
+[190] bbl.pm:757> INFO - Output to StatusReport.bbl

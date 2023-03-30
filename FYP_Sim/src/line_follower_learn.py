@@ -1,7 +1,9 @@
-from stable_baselines3 import DQN
+from stable_baselines3 import PPO
 import os
 from line_follower_env import LineFollowerEnv
 import time
+import tensorflow as tf
+
 
 
 
@@ -17,11 +19,13 @@ if not os.path.exists(logdir):
 env = LineFollowerEnv()#render_mode="human"
 env.reset()
 
-model = DQN('MlpPolicy', env, verbose=1, tensorboard_log=logdir,device="cuda")
+print(tf.config.list_physical_devices('GPU'))
+
+model = PPO('MlpPolicy', env, verbose=1, tensorboard_log=logdir,)#device="cpu", tf_device="/job:localhost"
 
 TIMESTEPS = 10000
 iters = 0
 while True:
 	iters += 1
-	model.learn(total_timesteps=TIMESTEPS, reset_num_timesteps=False, tb_log_name=f"DQN")
+	with tf.device('/device:GPU:0'):model.learn(total_timesteps=TIMESTEPS, reset_num_timesteps=False, tb_log_name=f"PPO")
 	model.save(f"{models_dir}/{TIMESTEPS*iters}")

@@ -1,0 +1,27 @@
+\contentsline {figure}{\numberline {1}{\ignorespaces The robot from EE303. This includes the two DC motors, microcontroller and sensor array.}}{12}{figure.1}%
+\contentsline {figure}{\numberline {2}{\ignorespaces The track from EE303 web server showing the complex radii, intersections and location numbers \blx@tocontentsinit {0}\cite {KevinMcGuinness}}}{12}{figure.2}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Reinforcement Learning Model Structure \blx@tocontentsinit {0}\cite {kaelbling1996reinforcement}}}{14}{figure.3}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Gym Hero's user interface. Created to mimic the UI of Guitar Hero \blx@tocontentsinit {0}\cite {GymHero}.}}{18}{figure.4}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Doodle Jumps graphics including player,all platforms and obstacles \blx@tocontentsinit {0}\cite {DoodleJump}.}}{20}{figure.5}%
+\contentsline {figure}{\numberline {6}{\ignorespaces All of the Panda environments for reinforcement learning. Robot has seven degrees of freedom.}}{22}{figure.6}%
+\contentsline {figure}{\numberline {7}{\ignorespaces The graphics of the car racing environment including the car and the randomised track \blx@tocontentsinit {0}\cite {Klimov}.}}{24}{figure.7}%
+\contentsline {figure}{\numberline {8}{\ignorespaces EE303's line follower robot simulated in a PyBullet environment}}{27}{figure.8}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Image of the bottom of EE303's line following robot showing the two motors, caster wheel and sensor array}}{29}{figure.9}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Diagram of the robot showing each of the variables that dictate the current and future locations}}{30}{figure.10}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Diagram to show how Pygame detects collisions using an image's vertical and horizontal edges}}{31}{figure.11}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Diagram showing how a rectangular image can be converted into a mask for pixel-perfect collision detection}}{31}{figure.12}%
+\contentsline {figure}{\numberline {13}{\ignorespaces EE303's track showing all of the complex radii and intersections \blx@tocontentsinit {0}\cite {KevinMcGuinness}}}{32}{figure.13}%
+\contentsline {figure}{\numberline {14}{\ignorespaces The circular nature of reinforcment learning. This shows how the agent uses its observation to make a decision and be rewarded}}{33}{figure.14}%
+\contentsline {figure}{\numberline {15}{\ignorespaces The initial observation space including the robot's position, orientation, velocity and present sensor values}}{34}{figure.15}%
+\contentsline {figure}{\numberline {16}{\ignorespaces A simplified observation space simplified down to just the current sensor values}}{34}{figure.16}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Simplified version of EE303's track used to develop a working observation space \blx@tocontentsinit {0}\cite {KevinMcGuinness}}}{35}{figure.17}%
+\contentsline {figure}{\numberline {18}{\ignorespaces The final observation space including just thirty sensor values. One present set and five historic sets of values}}{35}{figure.18}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Pseudocode for Initial Reward System}}{36}{figure.19}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Pseudocode for Further Reward System}}{37}{figure.20}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Pseudocode for Final Reward System}}{37}{figure.21}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Final environment developed using PyGame}}{38}{figure.22}%
+\contentsline {figure}{\numberline {23}{\ignorespaces TensorBoard graphs for mean duration and reward for a PPO algorithm throughout 2.5 million timesteps}}{39}{figure.23}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Arcitecture of the trained PPO neural network viewed using Netron}}{40}{figure.24}%
+\contentsline {figure}{\numberline {25}{\ignorespaces TensorBoard graph over forty million timesteps showing the agent getting stuck a the first corner}}{45}{figure.25}%
+\contentsline {figure}{\numberline {26}{\ignorespaces TensorBoard graph comparing different training graphs against each other}}{47}{figure.26}%
+\contentsline {figure}{\numberline {27}{\ignorespaces TensorBoard showing the training progress of a discrete action spaced neural network using Proximal Policy Optimization}}{50}{figure.27}%

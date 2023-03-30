@@ -6,7 +6,8 @@ A brief description of what this project does and who it's for
 
 ## Demo
 
-![](./simulator.gif)
+<img src="media/Simulator.gif" width="500">
+
 
 ## Run Locally
 

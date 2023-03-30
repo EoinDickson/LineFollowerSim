@@ -6,8 +6,8 @@ A brief description of what this project does and who it's for
 
 ## Demo
 
-![Alt text](simulator.gif)
-![](simulator.gif)
+<img src="simulator.gif">
+
 
 ## Run Locally
 

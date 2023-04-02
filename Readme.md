@@ -1,37 +1,11 @@
 
-# Project Title
+# Line Follower Simulator
 
-A brief description of what this project does and who it's for
+Line following simulator using OpenAI Gym
 
 
 ## Demo
 
-<img src="media/Simulator.gif" width="500">
+<img src="media/Simulator.gif">
 
-
-## Run Locally
-
-Clone the project
-
-```bash
-  git clone https://link-to-project
-```
-
-Install Packages
-
-```bash
-  cd my-project
-```
-
-Install dependencies
-
-```bash
-  npm install
-```
-
-Start the server
-
-```bash
-  npm run start
-```
 

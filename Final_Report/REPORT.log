@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.6)  30 MAR 2023 09:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.6)  2 APR 2023 21:22
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1070,6 +1070,12 @@ runsystem(rm Report.aex)...executed.
 
 LaTeX Warning: Label `fig:Panda' multiply defined.
 
+
+LaTeX Warning: Label `fig:LenTensorBoard2' multiply defined.
+
+
+LaTeX Warning: Label `fig:RewardTensorBoard2' multiply defined.
+
 )
 \openout1 = `Report.aux'.
 
@@ -1194,15 +1200,7 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Report.bbl' found.
 
-(./Report.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                eoin
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+(./Report.bbl)
 Package biblatex Info: Reference section=0 on input line 77.
 Package biblatex Info: Reference segment=0 on input line 77.
 
@@ -1218,7 +1216,7 @@ l.80 \renewcommand{\chaptermark}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<FrontPage.pdf, id=276, 597.50786pt x 845.04686pt>
+<FrontPage.pdf, id=284, 597.50786pt x 845.04686pt>
 File: FrontPage.pdf Graphic file (type pdf)
 <use FrontPage.pdf>
 Package pdftex.def Info: FrontPage.pdf  used on input line 85.
@@ -1227,7 +1225,7 @@ File: FrontPage.pdf Graphic file (type pdf)
 <use FrontPage.pdf>
 Package pdftex.def Info: FrontPage.pdf  used on input line 85.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
-<FrontPage.pdf, id=279, page=1, 597.50786pt x 845.04686pt>
+<FrontPage.pdf, id=287, page=1, 597.50786pt x 845.04686pt>
 File: FrontPage.pdf Graphic file (type pdf)
 <use FrontPage.pdf, page 1>
 Package pdftex.def Info: FrontPage.pdf , page1 used on input line 85.
@@ -1252,7 +1250,7 @@ Package pdftex.def Info: FrontPage.pdf , page1 used on input line 85.
 
 
  <./FrontPage.pdf>]
-<FrontPage.pdf, id=325, page=2, 597.50786pt x 845.04686pt>
+<FrontPage.pdf, id=333, page=2, 597.50786pt x 845.04686pt>
 File: FrontPage.pdf Graphic file (type pdf)
 <use FrontPage.pdf, page 2>
 Package pdftex.def Info: FrontPage.pdf , page2 used on input line 85.
@@ -1269,7 +1267,7 @@ Package pdftex.def Info: FrontPage.pdf , page2 used on input line 85.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername 
                           \ \thechapter \\ \leftmark \strut 
-l.91 
+l.95 
      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1280,7 +1278,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername \ \thechapter 
                                         \\ \leftmark \strut 
-l.91 
+l.95 
      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1310,7 +1308,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername 
                           \ \thechapter \\ \leftmark \strut 
-l.36 ...bservation Space}{35}{subsubsection.4.7.3}
+l.36 ...bservation Space}{36}{subsubsection.4.7.3}
                                                   %
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1321,7 +1319,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername \ \thechapter 
                                         \\ \leftmark \strut 
-l.36 ...bservation Space}{35}{subsubsection.4.7.3}
+l.36 ...bservation Space}{36}{subsubsection.4.7.3}
                                                   %
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1337,7 +1335,38 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
-[4])
+[4]
+! Undefined control sequence.
+\f@nch@olh ->\chaptername 
+                          \ \thechapter \\ \leftmark \strut 
+l.69 ... of Hardware Working}{60}{subsection.11.4}
+                                                  %
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\f@nch@olh ->\chaptername \ \thechapter 
+                                        \\ \leftmark \strut 
+l.69 ... of Hardware Working}{60}{subsection.11.4}
+                                                  %
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 18.85004pt, for example:
+(fancyhdr)                \setlength{\headheight}{18.85004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
+
+[5])
 \tf@toc=\write8
 \openout8 = `Report.toc'.
 
@@ -1345,8 +1374,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername 
                           \ \thechapter \\ \leftmark \strut 
-l.99 \listoffigures
-                   
+l.103 \listoffigures
+                    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1356,8 +1385,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername \ \thechapter 
                                         \\ \leftmark \strut 
-l.99 \listoffigures
-                   
+l.103 \listoffigures
+                    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1372,11 +1401,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
-[5] (./Report.lof
+[6] (./Report.lof
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername 
                           \ \thechapter \\ \leftmark \strut 
-l.24 ...twork viewed using Netron}}{40}{figure.24}
+l.21 ...e for Final Reward System}}{38}{figure.21}
                                                   %
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1387,7 +1416,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername \ \thechapter 
                                         \\ \leftmark \strut 
-l.24 ...twork viewed using Netron}}{40}{figure.24}
+l.21 ...e for Final Reward System}}{38}{figure.21}
                                                   %
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1403,7 +1432,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
-[6])
+[7]
+Overfull \hbox (5.29312pt too wide) in paragraph at lines 26--26
+ \OT1/cmr/m/n/12 Graph show-ing the mean sim-u-la-tion time against the num-ber
+ of timesteps[] [][]  
+ []
+
+)
 \tf@lof=\write9
 \openout9 = `Report.lof'.
 
@@ -1411,7 +1446,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername 
                           \ \thechapter \\ \leftmark \strut 
-l.101 \listoftables
+l.105 \listoftables
                    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1422,7 +1457,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername \ \thechapter 
                                         \\ \leftmark \strut 
-l.101 \listoftables
+l.105 \listoftables
                    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1438,7 +1473,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
-[7] (./Report.lot)
+[8] (./Report.lot)
 \tf@lot=\write10
 \openout10 = `Report.lot'.
 
@@ -1446,7 +1481,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername 
                           \ \thechapter \\ \leftmark \strut 
-l.103 
+l.107 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1457,62 +1492,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername \ \thechapter 
                                         \\ \leftmark \strut 
-l.103 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 18.85004pt, for example:
-(fancyhdr)                \setlength{\headheight}{18.85004pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
-
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 107--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 115--118
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--126
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--126
-
- []
-
-! Undefined control sequence.
-\f@nch@olh ->\chaptername 
-                          \ \thechapter \\ \leftmark \strut 
-l.126 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\f@nch@olh ->\chaptername \ \thechapter 
-                                        \\ \leftmark \strut 
-l.126 
+l.107 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1529,36 +1509,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
 [9]
-<imgs/Robot.jpg, id=554, 994.71625pt x 790.955pt>
-File: imgs/Robot.jpg Graphic file (type jpg)
-<use imgs/Robot.jpg>
-Package pdftex.def Info: imgs/Robot.jpg  used on input line 143.
-(pdftex.def)             Requested size: 284.52756pt x 226.24521pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 135--146
+Underfull \hbox (badness 10000) in paragraph at lines 111--116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--146
+Underfull \hbox (badness 10000) in paragraph at lines 111--116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--146
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 135--146
+Underfull \hbox (badness 10000) in paragraph at lines 119--122
 
  []
 
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername 
                           \ \thechapter \\ \leftmark \strut 
-l.146 \end{figure}
-                  
+l.123 \subsection
+                 {Problems with Current Systems}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1568,8 +1537,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername \ \thechapter 
                                         \\ \leftmark \strut 
-l.146 \end{figure}
-                  
+l.123 \subsection
+                 {Problems with Current Systems}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1585,11 +1554,45 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
 [10]
+Underfull \hbox (badness 10000) in paragraph at lines 125--130
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--130
+
+ []
+
+<imgs/Robot.jpg, id=594, 994.71625pt x 790.955pt>
+File: imgs/Robot.jpg Graphic file (type jpg)
+<use imgs/Robot.jpg>
+Package pdftex.def Info: imgs/Robot.jpg  used on input line 147.
+(pdftex.def)             Requested size: 284.52756pt x 226.24521pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--150
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--150
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--150
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--150
+
+ []
+
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername 
                           \ \thechapter \\ \leftmark \strut 
-l.147 
-      
+l.150 \end{figure}
+                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1599,8 +1602,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername \ \thechapter 
                                         \\ \leftmark \strut 
-l.147 
-      
+l.150 \end{figure}
+                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1616,53 +1619,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
 [11]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.148 \\\\
-          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.149 T
-       he main functionality of this model and the objective this module aim...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<imgs/TrackWNumbers.png, id=565, 1388.18625pt x 820.06375pt>
-File: imgs/TrackWNumbers.png Graphic file (type png)
-<use imgs/TrackWNumbers.png>
-Package pdftex.def Info: imgs/TrackWNumbers.png  used on input line 153.
-(pdftex.def)             Requested size: 284.52756pt x 168.07661pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--156
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--156
-
- []
-
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername 
                           \ \thechapter \\ \leftmark \strut 
-l.161 
-      
+l.151 \noindent
+               
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1672,8 +1633,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername \ \thechapter 
                                         \\ \leftmark \strut 
-l.161 
-      
+l.151 \noindent
+               
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1688,47 +1649,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
-[12
-pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.161 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.161 
-       <./imgs/Robot.jpg> <./imgs/TrackWNumbers.png>]
+[12]
+<imgs/TrackWNumbers.png, id=608, 1388.18625pt x 820.06375pt>
+File: imgs/TrackWNumbers.png Graphic file (type png)
+<use imgs/TrackWNumbers.png>
+Package pdftex.def Info: imgs/TrackWNumbers.png  used on input line 156.
+(pdftex.def)             Requested size: 284.52756pt x 168.07661pt.
 
-! LaTeX Error: There's no line here to end.
+Underfull \hbox (badness 10000) in paragraph at lines 151--159
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.162 \\\\
-          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+ []
 
 
-! LaTeX Error: There's no line here to end.
+Underfull \hbox (badness 10000) in paragraph at lines 151--159
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.163 T
-       he agent is the entity that interacts and makes actions based on the ...
+ []
 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<./imgs/RLGraph.png, id=574, 1037.8775pt x 779.91376pt>
+<./imgs/RLGraph.png, id=613, 1037.8775pt x 779.91376pt>
 File: ./imgs/RLGraph.png Graphic file (type png)
 <use ./imgs/RLGraph.png>
 Package pdftex.def Info: ./imgs/RLGraph.png  used on input line 183.
@@ -1813,36 +1750,79 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
-[13]
+[13
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.186 \end{figure}
+                  
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.186 \end{figure}
+                   <./imgs/Robot.jpg> <./imgs/TrackWNumbers.png>]
+! Undefined control sequence.
+\f@nch@olh ->\chaptername 
+                          \ \thechapter \\ \leftmark \strut 
+l.186 \end{figure}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\f@nch@olh ->\chaptername \ \thechapter 
+                                        \\ \leftmark \strut 
+l.186 \end{figure}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 18.85004pt, for example:
+(fancyhdr)                \setlength{\headheight}{18.85004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
+
+[14]
 ! Double subscript.
-l.193 ...nd the most recent iterate policy $\pi_o_
+l.194 ...nd the most recent iterate policy $\pi_o_
                                                   l_d$ \cite{Li}. A monotoni...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.193 ... the most recent iterate policy $\pi_o_l_
+l.194 ... the most recent iterate policy $\pi_o_l_
                                                   d$ \cite{Li}. A monotonic ...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--198
+Underfull \hbox (badness 10000) in paragraph at lines 192--199
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--198
+Underfull \hbox (badness 10000) in paragraph at lines 192--199
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--198
+Underfull \hbox (badness 10000) in paragraph at lines 192--199
 
  []
 
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername 
                           \ \thechapter \\ \leftmark \strut 
-l.198 
+l.199 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1853,7 +1833,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername \ \thechapter 
                                         \\ \leftmark \strut 
-l.198 
+l.199 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1869,21 +1849,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
-[14
+[15
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.198 
+l.199 
        <./imgs/RLGraph.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 201--204
+Underfull \hbox (badness 10000) in paragraph at lines 202--205
 
  []
 
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername 
                           \ \thechapter \\ \leftmark \strut 
-l.204 \subsection
+l.205 \subsection
                  {Problem}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1894,48 +1874,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername \ \thechapter 
                                         \\ \leftmark \strut 
-l.204 \subsection
+l.205 \subsection
                  {Problem}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 18.85004pt, for example:
-(fancyhdr)                \setlength{\headheight}{18.85004pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
-
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 206--209
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 219--222
-
- []
-
-! Undefined control sequence.
-\f@nch@olh ->\chaptername 
-                          \ \thechapter \\ \leftmark \strut 
-l.228   \item C
-               ar Racing
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\f@nch@olh ->\chaptername \ \thechapter 
-                                        \\ \leftmark \strut 
-l.228   \item C
-               ar Racing
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1951,58 +1891,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
 [16]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.234 \\\\
-          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.235 G
-       ym Hero is an environment developed in order to train an agent to pla...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<imgs/GymHero.png, id=620, 604.2575pt x 870.25125pt>
-File: imgs/GymHero.png Graphic file (type png)
-<use imgs/GymHero.png>
-Package pdftex.def Info: imgs/GymHero.png  used on input line 241.
-(pdftex.def)             Requested size: 227.62204pt x 327.81738pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 235--244
+Underfull \hbox (badness 10000) in paragraph at lines 207--210
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--244
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 235--244
+Underfull \hbox (badness 10000) in paragraph at lines 220--223
 
  []
 
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername 
                           \ \thechapter \\ \leftmark \strut 
-l.245 G
-       ym Hero's use of observation, action and reward space is critical to ...
+l.225 
+      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2012,8 +1914,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername \ \thechapter 
                                         \\ \leftmark \strut 
-l.245 G
-       ym Hero's use of observation, action and reward space is critical to ...
+l.225 
+      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2029,20 +1931,58 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 245--256
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.235 \\\\
+          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.236 G
+       ym Hero is an environment developed in order to train an agent to pla...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<imgs/GymHero.png, id=669, 604.2575pt x 870.25125pt>
+File: imgs/GymHero.png Graphic file (type png)
+<use imgs/GymHero.png>
+Package pdftex.def Info: imgs/GymHero.png  used on input line 242.
+(pdftex.def)             Requested size: 227.62204pt x 327.81738pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 236--245
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 245--256
+Underfull \hbox (badness 10000) in paragraph at lines 236--245
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 236--245
 
  []
 
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername 
                           \ \thechapter \\ \leftmark \strut 
-l.272 
-      
+l.246 \noindent
+               
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2052,8 +1992,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername \ \thechapter 
                                         \\ \leftmark \strut 
-l.272 
-      
+l.246 \noindent
+               
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2068,108 +2008,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
-[18
-pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.272 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
- been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.272 
-       <./imgs/GymHero.png>]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.286 \\\\
-          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.287 G
-       ym Hero has many elements that are very applicable to this project. U...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 287--289
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 246--258
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 287--289
-
- []
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.290 \\\\
-          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.291 R
-       einforcement Learning and Adversarial Attacks on Player Model with Do...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<imgs/DoodleJump.png, id=639, 949.5475pt x 983.675pt>
-File: imgs/DoodleJump.png Graphic file (type png)
-<use imgs/DoodleJump.png>
-Package pdftex.def Info: imgs/DoodleJump.png  used on input line 297.
-(pdftex.def)             Requested size: 227.62204pt x 235.80164pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 291--300
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 291--300
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 291--300
+Underfull \hbox (badness 10000) in paragraph at lines 246--258
 
  []
 
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername 
                           \ \thechapter \\ \leftmark \strut 
-l.300 \end{figure}
-                  \\\\
+l.274 
+      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2179,8 +2032,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername \ \thechapter 
                                         \\ \leftmark \strut 
-l.300 \end{figure}
-                  \\\\
+l.274 
+      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2196,60 +2049,79 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
 [19
-pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.274 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.300 \end{figure}
-                  \\\\
-pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has
- been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.300 \end{figure}
-                  \\\\]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.300 \end{figure}\\\\
-                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.301 T
-       he Doodle Jump environment uses different observation, action and rew...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 301--312
+l.274 
+       <./imgs/GymHero.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 287--290
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 301--312
+Underfull \hbox (badness 10000) in paragraph at lines 287--290
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.291 \\\\
+          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.292 R
+       einforcement Learning and Adversarial Attacks on Player Model with Do...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<imgs/DoodleJump.png, id=692, 949.5475pt x 983.675pt>
+File: imgs/DoodleJump.png Graphic file (type png)
+<use imgs/DoodleJump.png>
+Package pdftex.def Info: imgs/DoodleJump.png  used on input line 298.
+(pdftex.def)             Requested size: 227.62204pt x 235.80164pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--301
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--301
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--301
 
  []
 
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername 
                           \ \thechapter \\ \leftmark \strut 
-l.313 
-      
+l.301 \end{figure}
+                  \\\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2259,8 +2131,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername \ \thechapter 
                                         \\ \leftmark \strut 
-l.313 
-      
+l.301 \end{figure}
+                  \\\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2276,12 +2148,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
 [20
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
-s been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has
+ been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.313 
-       <./imgs/DoodleJump.png>]
+l.301 \end{figure}
+                  \\\\
+pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.301 \end{figure}
+                  \\\\]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -2289,96 +2167,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.341 \\\\
-          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.342 T
-       his project has many similar elements to the Gym Hero project from th...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 342--344
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 342--344
-
- []
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.345 \\\\
-          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.346 P
-       anda-gym: Open-source goal-conditioned environments for robotic learn...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Misplaced alignment tab character &.
-l.346 ... are included: reach, push, slide, pick &
-                                                   place and stack'' \cite{P...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-<imgs/Panda.png, id=659, 1205.50375pt x 395.4775pt>
-File: imgs/Panda.png Graphic file (type png)
-<use imgs/Panda.png>
-Package pdftex.def Info: imgs/Panda.png  used on input line 351.
-(pdftex.def)             Requested size: 426.79134pt x 140.0123pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 346--354
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 346--354
-
- []
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.354 \end{figure}\\\\
+l.301 \end{figure}\\\\
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2391,18 +2180,27 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.355 P
-       anda Gym uses PyBullet a three-dimensional physics engine, to simulat...
-
+l.302 \noindent
+               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 302--314
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 302--314
+
+ []
+
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername 
                           \ \thechapter \\ \leftmark \strut 
-l.355 P
-       anda Gym uses PyBullet a three-dimensional physics engine, to simulat...
+l.315 
+      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2412,8 +2210,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername \ \thechapter 
                                         \\ \leftmark \strut 
-l.355 P
-       anda Gym uses PyBullet a three-dimensional physics engine, to simulat...
+l.315 
+      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2429,41 +2227,94 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
 [21
-pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has
- been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
+s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.355 P
-       anda Gym uses PyBullet a three-dimensional physics engine, to simulat...
-
-pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has
- been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.355 P
-       anda Gym uses PyBullet a three-dimensional physics engine, to simulat...
-
-pdfTeX warning (ext4): destination with the same identifier (name{table.6}) has
- been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.355 P
-       anda Gym uses PyBullet a three-dimensional physics engine, to simulat...
-]
-Underfull \hbox (badness 10000) in paragraph at lines 355--366
+l.315 
+       <./imgs/DoodleJump.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 343--346
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 355--366
+Underfull \hbox (badness 10000) in paragraph at lines 343--346
 
  []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.347 \\\\
+          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.348 P
+       anda-gym: Open-source goal-conditioned environments for robotic learn...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<imgs/Panda.png, id=709, 1205.50375pt x 395.4775pt>
+File: imgs/Panda.png Graphic file (type png)
+<use imgs/Panda.png>
+Package pdftex.def Info: imgs/Panda.png  used on input line 353.
+(pdftex.def)             Requested size: 426.79134pt x 140.0123pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--356
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--356
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.356 \end{figure}\\\\
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.357 \noindent
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername 
                           \ \thechapter \\ \leftmark \strut 
-l.381 
-      
+l.357 \noindent
+               
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2473,8 +2324,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername \ \thechapter 
                                         \\ \leftmark \strut 
-l.381 
-      
+l.357 \noindent
+               
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2490,92 +2341,38 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
 [22
-pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.381 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{table.7}) has
+pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.381 
-       <./imgs/Panda.png>]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.393 \\\\
-          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.394 P
-       anda Gym shows how to approach my problem from a more robotic view. I...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<imgs/CarRacing.png, id=675, 637.38126pt x 462.72874pt>
-File: imgs/CarRacing.png Graphic file (type png)
-<use imgs/CarRacing.png>
-Package pdftex.def Info: imgs/CarRacing.png  used on input line 401.
-(pdftex.def)             Requested size: 284.52756pt x 206.5597pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 397--404
+l.357 \noindent
+               
+pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.357 \noindent
+               
+pdfTeX warning (ext4): destination with the same identifier (name{table.6}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.357 \noindent
+               ]
+Underfull \hbox (badness 10000) in paragraph at lines 357--369
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 397--404
+Underfull \hbox (badness 10000) in paragraph at lines 357--369
 
  []
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.404 \end{figure}\\\\
-                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.405 T
-       he environment for the car racing simulator uses a similar style of o...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
 
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername 
                           \ \thechapter \\ \leftmark \strut 
-l.405 T
-       he environment for the car racing simulator uses a similar style of o...
+l.384 
+      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2585,8 +2382,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername \ \thechapter 
                                         \\ \leftmark \strut 
-l.405 T
-       he environment for the car racing simulator uses a similar style of o...
+l.384 
+      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2602,34 +2399,38 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
 [23
-pdfTeX warning (ext4): destination with the same identifier (name{table.8}) has
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.384 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{table.7}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.405 T
-       he environment for the car racing simulator uses a similar style of o...
+l.384 
+       <./imgs/Panda.png>]
+<imgs/CarRacing.png, id=725, 637.38126pt x 462.72874pt>
+File: imgs/CarRacing.png Graphic file (type png)
+<use imgs/CarRacing.png>
+Package pdftex.def Info: imgs/CarRacing.png  used on input line 404.
+(pdftex.def)             Requested size: 284.52756pt x 206.5597pt.
 
-pdfTeX warning (ext4): destination with the same identifier (name{table.9}) has
- been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.405 T
-       he environment for the car racing simulator uses a similar style of o...
-]
-Underfull \hbox (badness 10000) in paragraph at lines 405--416
+Underfull \hbox (badness 10000) in paragraph at lines 400--407
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 405--416
+Underfull \hbox (badness 10000) in paragraph at lines 400--407
 
  []
 
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername 
                           \ \thechapter \\ \leftmark \strut 
-l.443 \end{table}
-                 
+l.408 \noindent
+               
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2639,8 +2440,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername \ \thechapter 
                                         \\ \leftmark \strut 
-l.443 \end{table}
-                 
+l.408 \noindent
+               
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2656,50 +2457,32 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
 [24
-pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
-s been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{table.8}) has
+ been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.443 \end{table}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{table.10}) ha
-s been already used, duplicate ignored
+l.408 \noindent
+               
+pdfTeX warning (ext4): destination with the same identifier (name{table.9}) has
+ been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.443 \end{table}
-                  <./imgs/CarRacing.png>]
+l.408 \noindent
+               ]
+Underfull \hbox (badness 10000) in paragraph at lines 408--420
 
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.456 \\\\
-          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+ []
 
 
-! LaTeX Error: There's no line here to end.
+Underfull \hbox (badness 10000) in paragraph at lines 408--420
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.457 T
-       he car racing environment explores elements of completion speed. This...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+ []
 
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername 
                           \ \thechapter \\ \leftmark \strut 
-l.467 
-      
+l.447 \end{table}
+                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2709,8 +2492,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername \ \thechapter 
                                         \\ \leftmark \strut 
-l.467 
-      
+l.447 \end{table}
+                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2726,28 +2509,71 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
 [25
+pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.447 \end{table}
+                 
+pdfTeX warning (ext4): destination with the same identifier (name{table.10}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.447 \end{table}
+                  <./imgs/CarRacing.png>]
+! Undefined control sequence.
+\f@nch@olh ->\chaptername 
+                          \ \thechapter \\ \leftmark \strut 
+l.471 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\f@nch@olh ->\chaptername \ \thechapter 
+                                        \\ \leftmark \strut 
+l.471 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 18.85004pt, for example:
+(fancyhdr)                \setlength{\headheight}{18.85004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
+
+[26
 pdfTeX warning (ext4): destination with the same identifier (name{table.11}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.467 
+l.471 
       
 pdfTeX warning (ext4): destination with the same identifier (name{table.12}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.467 
+l.471 
       
 pdfTeX warning (ext4): destination with the same identifier (name{table.13}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.467 
+l.471 
       ]
-<./imgs/PyBullet.png, id=699, 1140.26pt x 911.405pt>
+<./imgs/PyBullet.png, id=749, 1140.26pt x 911.405pt>
 File: ./imgs/PyBullet.png Graphic file (type png)
 <use ./imgs/PyBullet.png>
-Package pdftex.def Info: ./imgs/PyBullet.png  used on input line 474.
+Package pdftex.def Info: ./imgs/PyBullet.png  used on input line 478.
 (pdftex.def)             Requested size: 341.43306pt x 272.89514pt.
 
 
@@ -2756,7 +2582,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername 
                           \ \thechapter \\ \leftmark \strut 
-l.496   \item P
+l.500   \item P
                yBullet has a steep learning curve; to set up and get a basic...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2767,7 +2593,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername \ \thechapter 
                                         \\ \leftmark \strut 
-l.496   \item P
+l.500   \item P
                yBullet has a steep learning curve; to set up and get a basic...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2783,11 +2609,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
-[26]
+[27]
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername 
                           \ \thechapter \\ \leftmark \strut 
-l.505 
+l.509 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2798,7 +2624,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername \ \thechapter 
                                         \\ \leftmark \strut 
-l.505 
+l.509 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2814,60 +2640,33 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
-[27
+[28
 pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.505 
+l.509 
        <./imgs/PyBullet.png>]
-<imgs/RobotBottom.png, id=711, 3033.3325pt x 3828.3025pt>
+<imgs/RobotBottom.png, id=762, 3033.3325pt x 3828.3025pt>
 File: imgs/RobotBottom.png Graphic file (type png)
 <use imgs/RobotBottom.png>
-Package pdftex.def Info: imgs/RobotBottom.png  used on input line 535.
+Package pdftex.def Info: imgs/RobotBottom.png  used on input line 539.
 (pdftex.def)             Requested size: 227.62204pt x 287.22713pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 530--538
+Underfull \hbox (badness 10000) in paragraph at lines 534--542
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 530--538
+Underfull \hbox (badness 10000) in paragraph at lines 534--542
 
  []
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.539 \\\\
-          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.540 T
-       hree main aspects need to be accounted for when dealing with a differ...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
 
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername 
                           \ \thechapter \\ \leftmark \strut 
-l.540 T
-       hree main aspects need to be accounted for when dealing with a differ...
+l.543 \noindent
+               
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2877,8 +2676,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername \ \thechapter 
                                         \\ \leftmark \strut 
-l.540 T
-       hree main aspects need to be accounted for when dealing with a differ...
+l.543 \noindent
+               
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2893,31 +2692,31 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
-[28]
-Underfull \hbox (badness 10000) in paragraph at lines 540--543
+[29]
+Underfull \hbox (badness 10000) in paragraph at lines 543--547
 
  []
 
-<imgs/DiffGraph.png, id=716, 574.145pt x 439.6425pt>
+<imgs/DiffGraph.png, id=767, 574.145pt x 439.6425pt>
 File: imgs/DiffGraph.png Graphic file (type png)
 <use imgs/DiffGraph.png>
-Package pdftex.def Info: imgs/DiffGraph.png  used on input line 555.
+Package pdftex.def Info: imgs/DiffGraph.png  used on input line 559.
 (pdftex.def)             Requested size: 284.52756pt x 217.87526pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 551--559
+Underfull \hbox (badness 10000) in paragraph at lines 555--563
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 551--559
+Underfull \hbox (badness 10000) in paragraph at lines 555--563
 
  []
 
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername 
                           \ \thechapter \\ \leftmark \strut 
-l.560 
-      
+l.564 \noindent
+               
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2927,54 +2726,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername \ \thechapter 
                                         \\ \leftmark \strut 
-l.560 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 18.85004pt, for example:
-(fancyhdr)                \setlength{\headheight}{18.85004pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
-
-[29
-pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.560 
-       <./imgs/RobotBottom.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 564--567
-
- []
-
-<imgs/RectCollision.png, id=724, 2489.3pt x 1169.36874pt>
-File: imgs/RectCollision.png Graphic file (type png)
-<use imgs/RectCollision.png>
-Package pdftex.def Info: imgs/RectCollision.png  used on input line 570.
-(pdftex.def)             Requested size: 284.52756pt x 133.64487pt.
-! Undefined control sequence.
-\f@nch@olh ->\chaptername 
-                          \ \thechapter \\ \leftmark \strut 
-l.574 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\f@nch@olh ->\chaptername \ \thechapter 
-                                        \\ \leftmark \strut 
-l.574 
-      
+l.564 \noindent
+               
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2990,28 +2743,26 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
 [30
-pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) h
-as been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) ha
+s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.574 
-       <./imgs/DiffGraph.png>]
-<imgs/MasksCollision.png, id=731, 1581.91pt x 688.5725pt>
-File: imgs/MasksCollision.png Graphic file (type png)
-<use imgs/MasksCollision.png>
-Package pdftex.def Info: imgs/MasksCollision.png  used on input line 581.
-(pdftex.def)             Requested size: 284.52756pt x 123.84314pt.
-<imgs/Track.png, id=733, 905.3825pt x 525.965pt>
-File: imgs/Track.png Graphic file (type png)
-<use imgs/Track.png>
-Package pdftex.def Info: imgs/Track.png  used on input line 591.
-(pdftex.def)             Requested size: 284.52756pt x 165.28659pt.
+l.564 \noindent
+                <./imgs/RobotBottom.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 568--571
 
+ []
+
+<imgs/RectCollision.png, id=775, 2489.3pt x 1169.36874pt>
+File: imgs/RectCollision.png Graphic file (type png)
+<use imgs/RectCollision.png>
+Package pdftex.def Info: imgs/RectCollision.png  used on input line 574.
+(pdftex.def)             Requested size: 284.52756pt x 133.64487pt.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername 
                           \ \thechapter \\ \leftmark \strut 
-l.595 
-      
+l.578 \noindent
+               
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3021,8 +2772,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername \ \thechapter 
                                         \\ \leftmark \strut 
-l.595 
-      
+l.578 \noindent
+               
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3038,31 +2789,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
 [31
-pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) h
+pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.595 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.595 
-       <./imgs/RectCollision.png> <./imgs/MasksCollision.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 600--603
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 605--608
-
- []
+l.578 \noindent
+                <./imgs/DiffGraph.png>]
+<imgs/MasksCollision.png, id=783, 1581.91pt x 688.5725pt>
+File: imgs/MasksCollision.png Graphic file (type png)
+<use imgs/MasksCollision.png>
+Package pdftex.def Info: imgs/MasksCollision.png  used on input line 584.
+(pdftex.def)             Requested size: 284.52756pt x 123.84314pt.
+<imgs/Track.png, id=785, 905.3825pt x 525.965pt>
+File: imgs/Track.png Graphic file (type png)
+<use imgs/Track.png>
+Package pdftex.def Info: imgs/Track.png  used on input line 594.
+(pdftex.def)             Requested size: 284.52756pt x 165.28659pt.
 
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername 
                           \ \thechapter \\ \leftmark \strut 
-l.608 
+l.598 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3073,7 +2820,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername \ \thechapter 
                                         \\ \leftmark \strut 
-l.608 
+l.598 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3090,27 +2837,31 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
 [32
-pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) h
+pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.608 
-       <./imgs/Track.png>]
-<imgs/ObservationSpace.png, id=749, 2210.2575pt x 1289.81876pt>
-File: imgs/ObservationSpace.png Graphic file (type png)
-<use imgs/ObservationSpace.png>
-Package pdftex.def Info: imgs/ObservationSpace.png  used on input line 614.
-(pdftex.def)             Requested size: 199.16928pt x 116.21645pt.
-<imgs/InitialObsSpace.png, id=751, 1217.54875pt x 861.2175pt>
-File: imgs/InitialObsSpace.png Graphic file (type png)
-<use imgs/InitialObsSpace.png>
-Package pdftex.def Info: imgs/InitialObsSpace.png  used on input line 627.
-(pdftex.def)             Requested size: 199.16928pt x 140.87263pt.
+l.598 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.598 
+       <./imgs/RectCollision.png> <./imgs/MasksCollision.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 603--606
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 608--611
+
+ []
 
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername 
                           \ \thechapter \\ \leftmark \strut 
-l.631 
+l.611 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3121,7 +2872,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername \ \thechapter 
                                         \\ \leftmark \strut 
-l.631 
+l.611 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3138,25 +2889,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
 [33
-pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) h
+pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.631 
-       <./imgs/ObservationSpace.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 633--636
-
- []
-
-<imgs/SimpleObsSpace.png, id=758, 1217.54875pt x 861.2175pt>
-File: imgs/SimpleObsSpace.png Graphic file (type png)
-<use imgs/SimpleObsSpace.png>
-Package pdftex.def Info: imgs/SimpleObsSpace.png  used on input line 644.
+l.611 
+       <./imgs/Track.png>]
+<imgs/ObservationSpace.png, id=801, 2210.2575pt x 1289.81876pt>
+File: imgs/ObservationSpace.png Graphic file (type png)
+<use imgs/ObservationSpace.png>
+Package pdftex.def Info: imgs/ObservationSpace.png  used on input line 617.
+(pdftex.def)             Requested size: 199.16928pt x 116.21645pt.
+<imgs/InitialObsSpace.png, id=803, 1217.54875pt x 861.2175pt>
+File: imgs/InitialObsSpace.png Graphic file (type png)
+<use imgs/InitialObsSpace.png>
+Package pdftex.def Info: imgs/InitialObsSpace.png  used on input line 630.
 (pdftex.def)             Requested size: 199.16928pt x 140.87263pt.
+
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername 
                           \ \thechapter \\ \leftmark \strut 
-l.650 
+l.634 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3167,7 +2920,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername \ \thechapter 
                                         \\ \leftmark \strut 
-l.650 
+l.634 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3184,33 +2937,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
 [34
-pdfTeX warning (ext4): destination with the same identifier (name{figure.15}) h
+pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.650 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{figure.16}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.650 
-       <./imgs/InitialObsSpace.png> <./imgs/SimpleObsSpace.png>]
-<imgs/SimpleTrack.png, id=766, 905.3825pt x 525.965pt>
-File: imgs/SimpleTrack.png Graphic file (type png)
-<use imgs/SimpleTrack.png>
-Package pdftex.def Info: imgs/SimpleTrack.png  used on input line 653.
-(pdftex.def)             Requested size: 284.52756pt x 165.28659pt.
-<imgs/FinalObsSpace.png, id=770, 1217.54875pt x 861.2175pt>
-File: imgs/FinalObsSpace.png Graphic file (type png)
-<use imgs/FinalObsSpace.png>
-Package pdftex.def Info: imgs/FinalObsSpace.png  used on input line 665.
-(pdftex.def)             Requested size: 199.16928pt x 140.87263pt.
+l.634 
+       <./imgs/ObservationSpace.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 635--639
 
+ []
+
+<imgs/SimpleObsSpace.png, id=810, 1217.54875pt x 861.2175pt>
+File: imgs/SimpleObsSpace.png Graphic file (type png)
+<use imgs/SimpleObsSpace.png>
+Package pdftex.def Info: imgs/SimpleObsSpace.png  used on input line 647.
+(pdftex.def)             Requested size: 199.16928pt x 140.87263pt.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername 
                           \ \thechapter \\ \leftmark \strut 
-l.672 
+l.653 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3221,7 +2966,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername \ \thechapter 
                                         \\ \leftmark \strut 
-l.672 
+l.653 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3238,72 +2983,34 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
 [35
-pdfTeX warning (ext4): destination with the same identifier (name{figure.17}) h
+pdfTeX warning (ext4): destination with the same identifier (name{figure.15}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.672 
+l.653 
       
-pdfTeX warning (ext4): destination with the same identifier (name{figure.18}) h
+pdfTeX warning (ext4): destination with the same identifier (name{figure.16}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.672 
-       <./imgs/SimpleTrack.png> <./imgs/FinalObsSpace.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 681--683
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 681--683
-
- []
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2020/03/24 1.8d listings language file
-)
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.695 \\\\
-          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.696 T
-       his function is correct in its approach, although it does not account...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 701--713
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 701--713
-
- []
+l.653 
+       <./imgs/InitialObsSpace.png> <./imgs/SimpleObsSpace.png>]
+<imgs/SimpleTrack.png, id=818, 905.3825pt x 525.965pt>
+File: imgs/SimpleTrack.png Graphic file (type png)
+<use imgs/SimpleTrack.png>
+Package pdftex.def Info: imgs/SimpleTrack.png  used on input line 656.
+(pdftex.def)             Requested size: 284.52756pt x 165.28659pt.
+<imgs/FinalObsSpace.png, id=822, 1217.54875pt x 861.2175pt>
+File: imgs/FinalObsSpace.png Graphic file (type png)
+<use imgs/FinalObsSpace.png>
+Package pdftex.def Info: imgs/FinalObsSpace.png  used on input line 668.
+(pdftex.def)             Requested size: 199.16928pt x 140.87263pt.
 
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername 
                           \ \thechapter \\ \leftmark \strut 
-l.713 \end{figure}
-                  
+l.674 
+      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3313,8 +3020,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername \ \thechapter 
                                         \\ \leftmark \strut 
-l.713 \end{figure}
-                  
+l.674 
+      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3330,81 +3037,44 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
 [36
-pdfTeX warning (ext4): destination with the same identifier (name{figure.19}) h
+pdfTeX warning (ext4): destination with the same identifier (name{figure.17}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.713 \end{figure}
-                  ]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.714 \\\\
-          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.715 T
-       his improves the initial reward system, and the robot will begin to m...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 720--731
+l.674 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.18}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.674 
+       <./imgs/SimpleTrack.png> <./imgs/FinalObsSpace.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 683--685
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 720--731
+Underfull \hbox (badness 10000) in paragraph at lines 683--685
+
+ []
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+Underfull \hbox (badness 10000) in paragraph at lines 703--715
 
  []
 
 
-! LaTeX Error: There's no line here to end.
+Underfull \hbox (badness 10000) in paragraph at lines 703--715
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.732 \\\\
-          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.733 T
-       his reward function balances both the reward and the punishment. It p...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+ []
 
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername 
                           \ \thechapter \\ \leftmark \strut 
-l.735 \subsection
-                 {Choosing RL Algorithm}
+l.715 \end{figure}
+                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3414,8 +3084,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername \ \thechapter 
                                         \\ \leftmark \strut 
-l.735 \subsection
-                 {Choosing RL Algorithm}
+l.715 \end{figure}
+                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3431,32 +3101,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
 [37
-pdfTeX warning (ext4): destination with the same identifier (name{figure.20}) h
+pdfTeX warning (ext4): destination with the same identifier (name{figure.19}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.735 \subsection
-                 {Choosing RL Algorithm}
-pdfTeX warning (ext4): destination with the same identifier (name{figure.21}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.735 \subsection
-                 {Choosing RL Algorithm}]
-<./imgs/PyGame.png, id=809, 1128.215pt x 751.80875pt>
-File: ./imgs/PyGame.png Graphic file (type png)
-<use ./imgs/PyGame.png>
-Package pdftex.def Info: ./imgs/PyGame.png  used on input line 742.
-(pdftex.def)             Requested size: 341.43306pt x 227.51749pt.
+l.715 \end{figure}
+                  ]
+Underfull \hbox (badness 10000) in paragraph at lines 722--733
 
-Underfull \hbox (badness 10000) in paragraph at lines 750--753
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 722--733
 
  []
 
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername 
                           \ \thechapter \\ \leftmark \strut 
-l.753 
+l.736 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3467,7 +3130,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername \ \thechapter 
                                         \\ \leftmark \strut 
-l.753 
+l.736 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3484,31 +3147,32 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
 [38
-pdfTeX warning (ext4): destination with the same identifier (name{figure.22}) h
+pdfTeX warning (ext4): destination with the same identifier (name{figure.20}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.753 
-       <./imgs/PyGame.png>]
-<./imgs/TensorBoardDark.png, id=816, 1185.42876pt x 878.28125pt>
-File: ./imgs/TensorBoardDark.png Graphic file (type png)
-<use ./imgs/TensorBoardDark.png>
-Package pdftex.def Info: ./imgs/TensorBoardDark.png  used on input line 761.
-(pdftex.def)             Requested size: 426.79134pt x 316.20781pt.
+l.736 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.21}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.736 
+      ]
+<./imgs/PyGame.png, id=863, 1128.215pt x 751.80875pt>
+File: ./imgs/PyGame.png Graphic file (type png)
+<use ./imgs/PyGame.png>
+Package pdftex.def Info: ./imgs/PyGame.png  used on input line 744.
+(pdftex.def)             Requested size: 341.43306pt x 227.51749pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--764
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 757--764
+Underfull \hbox (badness 10000) in paragraph at lines 752--755
 
  []
 
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername 
                           \ \thechapter \\ \leftmark \strut 
-l.766 
+l.755 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3519,7 +3183,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername \ \thechapter 
                                         \\ \leftmark \strut 
-l.766 
+l.755 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3536,27 +3200,38 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
 [39
-pdfTeX warning (ext4): destination with the same identifier (name{figure.23}) h
+pdfTeX warning (ext4): destination with the same identifier (name{figure.22}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.766 
-       <./imgs/TensorBoardDark.png>]
-<imgs/HistoryNetron.png, id=823, 547.04375pt x 687.56876pt>
-File: imgs/HistoryNetron.png Graphic file (type png)
-<use imgs/HistoryNetron.png>
-Package pdftex.def Info: imgs/HistoryNetron.png  used on input line 776.
-(pdftex.def)             Requested size: 227.62204pt x 286.0911pt.
+l.755 
+       <./imgs/PyGame.png>]
+<./imgs/LenTensorBoard4.png, id=873, 1404.24625pt x 581.17125pt>
+File: ./imgs/LenTensorBoard4.png Graphic file (type png)
+<use ./imgs/LenTensorBoard4.png>
+Package pdftex.def Info: ./imgs/LenTensorBoard4.png  used on input line 763.
+(pdftex.def)             Requested size: 398.33858pt x 164.85515pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 780--783
+Underfull \hbox (badness 10000) in paragraph at lines 759--766
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 759--766
+
+ []
+
+<./imgs/RewardTensorBoard4.png, id=874, 1404.24625pt x 581.17125pt>
+File: ./imgs/RewardTensorBoard4.png Graphic file (type png)
+<use ./imgs/RewardTensorBoard4.png>
+Package pdftex.def Info: ./imgs/RewardTensorBoard4.png  used on input line 769.
+
+(pdftex.def)             Requested size: 398.33858pt x 164.85515pt.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername 
                           \ \thechapter \\ \leftmark \strut 
-l.783 
-      
+l.779 \noindent
+               
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3566,8 +3241,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername \ \thechapter 
                                         \\ \leftmark \strut 
-l.783 
-      
+l.779 \noindent
+               
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3583,51 +3258,158 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
 [40
+pdfTeX warning (ext4): destination with the same identifier (name{figure.23}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.779 \noindent
+                <./imgs/LenTensorBoard4.png>]
+<imgs/HistoryNetron.png, id=884, 547.04375pt x 687.56876pt>
+File: imgs/HistoryNetron.png Graphic file (type png)
+<use imgs/HistoryNetron.png>
+Package pdftex.def Info: imgs/HistoryNetron.png  used on input line 793.
+(pdftex.def)             Requested size: 227.62204pt x 286.0911pt.
+
+! Undefined control sequence.
+\f@nch@olh ->\chaptername 
+                          \ \thechapter \\ \leftmark \strut 
+l.797 \noindent
+               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\f@nch@olh ->\chaptername \ \thechapter 
+                                        \\ \leftmark \strut 
+l.797 \noindent
+               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 18.85004pt, for example:
+(fancyhdr)                \setlength{\headheight}{18.85004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
+
+[41
 pdfTeX warning (ext4): destination with the same identifier (name{figure.24}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.783 
+l.797 \noindent
+                <./imgs/RewardTensorBoard4.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 797--801
+
+ []
+
+! Double superscript.
+<argument> e^z-e^-^
+                   z
+l.811 Tanh(z) = \frac{e^z-e^-^z}{e^z-e^-^z}
+                                           
+I treat `x^1^2' essentially like `x^1{}^2'.
+
+! Double superscript.
+<argument> e^z-e^-^
+                   z
+l.811 Tanh(z) = \frac{e^z-e^-^z}{e^z-e^-^z}
+                                           
+I treat `x^1^2' essentially like `x^1{}^2'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 818--821
+
+ []
+
+! Undefined control sequence.
+\f@nch@olh ->\chaptername 
+                          \ \thechapter \\ \leftmark \strut 
+l.821 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\f@nch@olh ->\chaptername \ \thechapter 
+                                        \\ \leftmark \strut 
+l.821 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 18.85004pt, for example:
+(fancyhdr)                \setlength{\headheight}{18.85004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
+
+[42
+pdfTeX warning (ext4): destination with the same identifier (name{figure.25}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.821 
        <./imgs/HistoryNetron.png>]
-! Double superscript.
-<argument> e^z-e^-^
-                   z
-l.793 Tanh(z) = \frac{e^z-e^-^z}{e^z-e^-^z}
-                                           
-I treat `x^1^2' essentially like `x^1{}^2'.
-
-! Double superscript.
-<argument> e^z-e^-^
-                   z
-l.793 Tanh(z) = \frac{e^z-e^-^z}{e^z-e^-^z}
-                                           
-I treat `x^1^2' essentially like `x^1{}^2'.
-
-
-Overfull \hbox (12.07587pt too wide) in paragraph at lines 800--803
-\OT1/cmr/m/n/12 https://github.com/edisondev/Energia-Libraries/blob/master/Matr
-ixMath.cpp. This
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 800--803
+Underfull \hbox (badness 10000) in paragraph at lines 825--830
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 807--812
+Underfull \hbox (badness 10000) in paragraph at lines 825--830
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 807--812
+Underfull \hbox (badness 10000) in paragraph at lines 832--845
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 832--845
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 832--845
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 832--845
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 832--845
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 832--845
 
  []
 
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername 
                           \ \thechapter \\ \leftmark \strut 
-l.812 
+l.845 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3638,108 +3420,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername \ \thechapter 
                                         \\ \leftmark \strut 
-l.812 
+l.845 
       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 18.85004pt, for example:
-(fancyhdr)                \setlength{\headheight}{18.85004pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
-
-[41]
-Underfull \hbox (badness 10000) in paragraph at lines 814--827
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 814--827
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 814--827
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 814--827
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 814--827
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 814--827
-
- []
-
-! Undefined control sequence.
-\f@nch@olh ->\chaptername 
-                          \ \thechapter \\ \leftmark \strut 
-l.827 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\f@nch@olh ->\chaptername \ \thechapter 
-                                        \\ \leftmark \strut 
-l.827 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 18.85004pt, for example:
-(fancyhdr)                \setlength{\headheight}{18.85004pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
-
-[42]
-Underfull \hbox (badness 10000) in paragraph at lines 836--853
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 836--853
-
- []
-
-! Undefined control sequence.
-\f@nch@olh ->\chaptername 
-                          \ \thechapter \\ \leftmark \strut 
-l.853 \end{table}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\f@nch@olh ->\chaptername \ \thechapter 
-                                        \\ \leftmark \strut 
-l.853 \end{table}
-                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3755,80 +3437,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
 [43]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.855 \\\\
-          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.856 W
-       hen training with this observation space, the mean reward graph from ...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<imgs/ObsDebugging.png, id=848, 1537.745pt x 884.30376pt>
-File: imgs/ObsDebugging.png Graphic file (type png)
-<use imgs/ObsDebugging.png>
-Package pdftex.def Info: imgs/ObsDebugging.png  used on input line 860.
-(pdftex.def)             Requested size: 426.79134pt x 245.43092pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 856--863
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 856--863
-
- []
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.864 \\\\
-          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.865 W
-       ith more training, now at over twenty million time steps. The mean re...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername 
                           \ \thechapter \\ \leftmark \strut 
-l.865 W
-       ith more training, now at over twenty million time steps. The mean re...
+l.849 
+      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3838,8 +3451,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername \ \thechapter 
                                         \\ \leftmark \strut 
-l.865 W
-       ith more training, now at over twenty million time steps. The mean re...
+l.849 
+      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3854,65 +3467,36 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
-[44
-pdfTeX warning (ext4): destination with the same identifier (name{table.14}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.865 W
-       ith more training, now at over twenty million time steps. The mean re...
-]
-Underfull \hbox (badness 10000) in paragraph at lines 865--882
+[44]
+Underfull \hbox (badness 10000) in paragraph at lines 854--871
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 865--882
+Underfull \hbox (badness 10000) in paragraph at lines 854--871
+
+ []
+
+<imgs/LenTensorBoard1.png, id=914, 1404.24625pt x 581.17125pt>
+File: imgs/LenTensorBoard1.png Graphic file (type png)
+<use imgs/LenTensorBoard1.png>
+Package pdftex.def Info: imgs/LenTensorBoard1.png  used on input line 877.
+(pdftex.def)             Requested size: 398.33858pt x 164.85515pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 872--880
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 865--882
-
- []
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.883 \\\\
-          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.884 D
-       uring training, the model seemed to be training well, although the me...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 884--887
+Underfull \hbox (badness 10000) in paragraph at lines 872--880
 
  []
 
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername 
                           \ \thechapter \\ \leftmark \strut 
-l.887 
-      
+l.880 \end{figure}
+                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3922,8 +3506,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername \ \thechapter 
                                         \\ \leftmark \strut 
-l.887 
-      
+l.880 \end{figure}
+                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3939,64 +3523,37 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
 [45
-pdfTeX warning (ext4): destination with the same identifier (name{figure.25}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.887 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{table.15}) ha
+pdfTeX warning (ext4): destination with the same identifier (name{table.14}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.887 
-       <./imgs/ObsDebugging.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 889--909
+l.880 \end{figure}
+                  ]
+<imgs/RewardTensorBoard1.png, id=919, 1404.24625pt x 581.17125pt>
+File: imgs/RewardTensorBoard1.png Graphic file (type png)
+<use imgs/RewardTensorBoard1.png>
+Package pdftex.def Info: imgs/RewardTensorBoard1.png  used on input line 883.
+(pdftex.def)             Requested size: 398.33858pt x 164.85515pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 898--916
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 889--909
+Underfull \hbox (badness 10000) in paragraph at lines 898--916
 
  []
 
 
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.910 \\\\
-          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.911 W
-       hen debugging this action space TensorBoard graphs were the first ind...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 911--914
+Underfull \hbox (badness 10000) in paragraph at lines 898--916
 
  []
 
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername 
                           \ \thechapter \\ \leftmark \strut 
-l.914 
-      
+l.916 \end{table}
+                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -4006,8 +3563,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername \ \thechapter 
                                         \\ \leftmark \strut 
-l.914 
-      
+l.916 \end{table}
+                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -4023,59 +3580,38 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
 [46
-pdfTeX warning (ext4): destination with the same identifier (name{table.16}) ha
-s been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{figure.26}) h
+as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.914 
-      ]
-<imgs/MultiTensorBoard.png, id=865, 1537.745pt x 884.30376pt>
-File: imgs/MultiTensorBoard.png Graphic file (type png)
-<use imgs/MultiTensorBoard.png>
-Package pdftex.def Info: imgs/MultiTensorBoard.png  used on input line 921.
-(pdftex.def)             Requested size: 426.79134pt x 245.43092pt.
+l.916 \end{table}
+                 
+pdfTeX warning (ext4): destination with the same identifier (name{figure.27}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.916 \end{table}
+                  <./imgs/LenTensorBoard1.png> <./imgs/RewardTensorBoard1.png>]
 
-Underfull \hbox (badness 10000) in paragraph at lines 917--925
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 917--925
+Underfull \hbox (badness 10000) in paragraph at lines 917--921
 
  []
 
 
-! LaTeX Error: There's no line here to end.
+Underfull \hbox (badness 10000) in paragraph at lines 923--943
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.926 \\\\
-          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+ []
 
 
-! LaTeX Error: There's no line here to end.
+Underfull \hbox (badness 10000) in paragraph at lines 923--943
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.927 I
-       n order to encourage the agent to train faster, a larger punishment f...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+ []
 
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername 
                           \ \thechapter \\ \leftmark \strut 
-l.928 
-      
+l.944 \noindent
+               
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -4085,8 +3621,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername \ \thechapter 
                                         \\ \leftmark \strut 
-l.928 
-      
+l.944 \noindent
+               
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -4102,192 +3638,183 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
 [47
-pdfTeX warning (ext4): destination with the same identifier (name{figure.26}) h
+pdfTeX warning (ext4): destination with the same identifier (name{table.15}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.944 \noindent
+               ]
+Underfull \hbox (badness 10000) in paragraph at lines 944--948
+
+ []
+
+<imgs/LenTensorBoard2.png, id=934, 1404.24625pt x 581.17125pt>
+File: imgs/LenTensorBoard2.png Graphic file (type png)
+<use imgs/LenTensorBoard2.png>
+Package pdftex.def Info: imgs/LenTensorBoard2.png  used on input line 955.
+(pdftex.def)             Requested size: 398.33858pt x 164.85515pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 951--958
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 951--958
+
+ []
+
+<imgs/RewardTensorBoard2.png, id=935, 1404.24625pt x 581.17125pt>
+File: imgs/RewardTensorBoard2.png Graphic file (type png)
+<use imgs/RewardTensorBoard2.png>
+Package pdftex.def Info: imgs/RewardTensorBoard2.png  used on input line 961.
+(pdftex.def)             Requested size: 398.33858pt x 164.85515pt.
+! Undefined control sequence.
+\f@nch@olh ->\chaptername 
+                          \ \thechapter \\ \leftmark \strut 
+l.964 \end{figure}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\f@nch@olh ->\chaptername \ \thechapter 
+                                        \\ \leftmark \strut 
+l.964 \end{figure}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 18.85004pt, for example:
+(fancyhdr)                \setlength{\headheight}{18.85004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
+
+[48
+pdfTeX warning (ext4): destination with the same identifier (name{table.16}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.964 \end{figure}
+                  ]
+! Too many }'s.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.970 \end{figure}
+                  
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+! Extra \endgroup.
+\color@endgroup ->\endgraf \endgroup 
+                                     
+l.970 \end{figure}
+                  
+Things are pretty mixed up, but I think the worst is over.
+
+! Too many }'s.
+\color@endbox ->\color@endgroup \egroup 
+                                        
+l.970 \end{figure}
+                  
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.970 \end{figure}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.970 \end{figure}
+                  
+Things are pretty mixed up, but I think the worst is over.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 975--982
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 975--982
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 975--982
+
+ []
+
+! Undefined control sequence.
+\f@nch@olh ->\chaptername 
+                          \ \thechapter \\ \leftmark \strut 
+l.982 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\f@nch@olh ->\chaptername \ \thechapter 
+                                        \\ \leftmark \strut 
+l.982 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 18.85004pt, for example:
+(fancyhdr)                \setlength{\headheight}{18.85004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
+
+[49
+pdfTeX warning (ext4): destination with the same identifier (name{figure.28}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.928 
-       <./imgs/MultiTensorBoard.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 930--937
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 930--937
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 930--937
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 940--945
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 940--945
-
- []
-
-! Undefined control sequence.
-\f@nch@olh ->\chaptername 
-                          \ \thechapter \\ \leftmark \strut 
-l.945 
+l.982 
       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\f@nch@olh ->\chaptername \ \thechapter 
-                                        \\ \leftmark \strut 
-l.945 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 18.85004pt, for example:
-(fancyhdr)                \setlength{\headheight}{18.85004pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
-
-[48]
-Underfull \hbox (badness 10000) in paragraph at lines 951--954
-
- []
-
-<imgs/ResultsSimulator.png, id=877, 1537.745pt x 884.30376pt>
-File: imgs/ResultsSimulator.png Graphic file (type png)
-<use imgs/ResultsSimulator.png>
-Package pdftex.def Info: imgs/ResultsSimulator.png  used on input line 957.
-(pdftex.def)             Requested size: 426.79134pt x 245.43092pt.
-! Undefined control sequence.
-\f@nch@olh ->\chaptername 
-                          \ \thechapter \\ \leftmark \strut 
-l.961 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\f@nch@olh ->\chaptername \ \thechapter 
-                                        \\ \leftmark \strut 
-l.961 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 18.85004pt, for example:
-(fancyhdr)                \setlength{\headheight}{18.85004pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
-
-[49]
-Underfull \hbox (badness 10000) in paragraph at lines 963--970
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 963--970
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 963--970
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 973--980
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 973--980
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 973--980
-
- []
-
-! Undefined control sequence.
-\f@nch@olh ->\chaptername 
-                          \ \thechapter \\ \leftmark \strut 
-l.980 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\f@nch@olh ->\chaptername \ \thechapter 
-                                        \\ \leftmark \strut 
-l.980 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 18.85004pt, for example:
-(fancyhdr)                \setlength{\headheight}{18.85004pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
-
-[50
-pdfTeX warning (ext4): destination with the same identifier (name{figure.27}) h
+pdfTeX warning (ext4): destination with the same identifier (name{figure.29}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.980 
-       <./imgs/ResultsSimulator.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 982--989
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 982--989
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 982--989
+l.982 
+       <./imgs/LenTensorBoard2.png> <./imgs/RewardTensorBoard2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 993--996
 
  []
 
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername 
                           \ \thechapter \\ \leftmark \strut 
-l.989 
-      
+l.996 \subsection
+                 {Hardware Testing}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -4297,8 +3824,48 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername \ \thechapter 
                                         \\ \leftmark \strut 
-l.989 
-      
+l.996 \subsection
+                 {Hardware Testing}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 18.85004pt, for example:
+(fancyhdr)                \setlength{\headheight}{18.85004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
+
+[50]
+Underfull \hbox (badness 10000) in paragraph at lines 997--1002
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 997--1002
+
+ []
+
+! Undefined control sequence.
+\f@nch@olh ->\chaptername 
+                          \ \thechapter \\ \leftmark \strut 
+l.1007 \subsection
+                  {Simulator Performance}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\f@nch@olh ->\chaptername \ \thechapter 
+                                        \\ \leftmark \strut 
+l.1007 \subsection
+                  {Simulator Performance}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -4314,11 +3881,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
 [51]
+Underfull \hbox (badness 10000) in paragraph at lines 1008--1011
+
+ []
+
+<imgs/LenTensorBoard3.png, id=960, 1404.24625pt x 581.17125pt>
+File: imgs/LenTensorBoard3.png Graphic file (type png)
+<use imgs/LenTensorBoard3.png>
+Package pdftex.def Info: imgs/LenTensorBoard3.png  used on input line 1014.
+(pdftex.def)             Requested size: 398.33858pt x 164.85515pt.
+<imgs/RewardTensorBoard3.png, id=961, 1404.24625pt x 581.17125pt>
+File: imgs/RewardTensorBoard3.png Graphic file (type png)
+<use imgs/RewardTensorBoard3.png>
+Package pdftex.def Info: imgs/RewardTensorBoard3.png  used on input line 1020.
+(pdftex.def)             Requested size: 398.33858pt x 164.85515pt.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername 
                           \ \thechapter \\ \leftmark \strut 
-l.992 \section
-              {Project Log}
+l.1024 
+       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -4328,8 +3909,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername \ \thechapter 
                                         \\ \leftmark \strut 
-l.992 \section
-              {Project Log}
+l.1024 
+       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -4344,12 +3925,32 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
-[52]
+[52
+pdfTeX warning (ext4): destination with the same identifier (name{figure.30}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1024 
+        <./imgs/LenTensorBoard3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1049--1056
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1049--1056
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1049--1056
+
+ []
+
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername 
                           \ \thechapter \\ \leftmark \strut 
-l.1044   \item B
-                egun design and creation of line following environment using...
+l.1056 
+       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -4359,8 +3960,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername \ \thechapter 
                                         \\ \leftmark \strut 
-l.1044   \item B
-                egun design and creation of line following environment using...
+l.1056 
+       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -4375,12 +3976,53 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
-[53]
+[53
+pdfTeX warning (ext4): destination with the same identifier (name{figure.31}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1056 
+       
+pdfTeX warning (ext4): destination with the same identifier (name{table.17}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1056 
+        <./imgs/RewardTensorBoard3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1059--1066
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1059--1066
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1059--1066
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1068--1075
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1068--1075
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1068--1075
+
+ []
+
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername 
                           \ \thechapter \\ \leftmark \strut 
-l.1094 \end{itemize}
-                    
+l.1075 
+       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -4390,8 +4032,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername \ \thechapter 
                                         \\ \leftmark \strut 
-l.1094 \end{itemize}
-                    
+l.1075 
+       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -4410,8 +4052,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername 
                           \ \thechapter \\ \leftmark \strut 
-l.1138   \item R
-                eport writing
+l.1077 \section
+               {Project Log}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -4421,8 +4063,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername \ \thechapter 
                                         \\ \leftmark \strut 
-l.1138   \item R
-                eport writing
+l.1077 \section
+               {Project Log}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -4441,8 +4083,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername 
                           \ \thechapter \\ \leftmark \strut 
-l.1164 \section
-               {Apendix}
+l.1129   \item B
+                egun design and creation of line following environment using...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -4452,8 +4094,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername \ \thechapter 
                                         \\ \leftmark \strut 
-l.1164 \section
-               {Apendix}
+l.1129   \item B
+                egun design and creation of line following environment using...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -4472,8 +4114,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername 
                           \ \thechapter \\ \leftmark \strut 
-l.1179 \printbibliography
-                         
+l.1179 \end{itemize}
+                    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -4483,8 +4125,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername \ \thechapter 
                                         \\ \leftmark \strut 
-l.1179 \printbibliography
-                         
+l.1179 \end{itemize}
+                    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -4500,31 +4142,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
 [57]
-Overfull \hbox (9.7865pt too wide) in paragraph at lines 1180--1180
-\OT1/cmr/m/n/12 tacks on Player Model with Doo-dle Jump''. In: (). \OT1/cmr/m/s
-c/12 url\OT1/cmr/m/n/12 : []$\OT1/cmtt/m/n/12 https : / / pranavmswamy .
- []
-
-
-Package biblatex Warning: No driver for entry type 'eletronic'.
-(biblatex)                Using fallback driver on input line 1179.
-
-
-Package biblatex Warning: No driver for entry type 'eletronic'.
-(biblatex)                Using fallback driver on input line 1179.
-
-
-Overfull \hbox (50.2952pt too wide) in paragraph at lines 1180--1180
-[]\OT1/cmr/m/n/12 Kevin McGuin-ness. \OT1/cmr/m/it/12 ee303-vbotsvr\OT1/cmr/m/n
-/12 . 2021. \OT1/cmr/m/sc/12 url\OT1/cmr/m/n/12 : []$\OT1/cmtt/m/n/12 https : /
- / github . com / kevinmcguinness /
- []
-
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername 
                           \ \thechapter \\ \leftmark \strut 
-l.1180 
-       
+l.1223   \item R
+                eport writing
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -4534,8 +4156,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername \ \thechapter 
                                         \\ \leftmark \strut 
-l.1180 
-       
+l.1223   \item R
+                eport writing
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -4554,7 +4176,171 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername 
                           \ \thechapter \\ \leftmark \strut 
-l.1182 \end{document}
+l.1249 \section
+               {Appendix}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\f@nch@olh ->\chaptername \ \thechapter 
+                                        \\ \leftmark \strut 
+l.1249 \section
+               {Appendix}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 18.85004pt, for example:
+(fancyhdr)                \setlength{\headheight}{18.85004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
+
+[59]
+! Undefined control sequence.
+\f@nch@olh ->\chaptername 
+                          \ \thechapter \\ \leftmark \strut 
+l.1269 \printbibliography
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\f@nch@olh ->\chaptername \ \thechapter 
+                                        \\ \leftmark \strut 
+l.1269 \printbibliography
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 18.85004pt, for example:
+(fancyhdr)                \setlength{\headheight}{18.85004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
+
+[60]
+Overfull \hbox (0.60332pt too wide) in paragraph at lines 1270--1270
+\OT1/cmr/m/n/12 Anal-y-sis of a Dif-fer-en-tial Drive Mo-bile Robot''. In: \OT1
+/cmr/m/it/12 2022 In-ter-na-tional Congress
+ []
+
+
+Overfull \hbox (22.44077pt too wide) in paragraph at lines 1270--1270
+\OT1/cmr/m/it/12 on Human-Computer In-ter-ac-tion, Op-ti-miza-tion and Robotic 
+Ap-pli-ca-tions (HORA)\OT1/cmr/m/n/12 .
+ []
+
+
+Package biblatex Warning: No driver for entry type 'eletronic'.
+(biblatex)                Using fallback driver on input line 1269.
+
+
+Overfull \hbox (9.7865pt too wide) in paragraph at lines 1270--1270
+\OT1/cmr/m/n/12 tacks on Player Model with Doo-dle Jump''. In: (). \OT1/cmr/m/s
+c/12 url\OT1/cmr/m/n/12 : []$\OT1/cmtt/m/n/12 https : / / pranavmswamy .
+ []
+
+
+Package biblatex Warning: No driver for entry type 'eletronic'.
+(biblatex)                Using fallback driver on input line 1269.
+
+! Undefined control sequence.
+\f@nch@olh ->\chaptername 
+                          \ \thechapter \\ \leftmark \strut 
+l.1270 
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\f@nch@olh ->\chaptername \ \thechapter 
+                                        \\ \leftmark \strut 
+l.1270 
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 18.85004pt, for example:
+(fancyhdr)                \setlength{\headheight}{18.85004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
+
+[61]
+
+Package biblatex Warning: No driver for entry type 'eletronic'.
+(biblatex)                Using fallback driver on input line 1269.
+
+
+Package biblatex Warning: No driver for entry type 'eletronic'.
+(biblatex)                Using fallback driver on input line 1269.
+
+
+Overfull \hbox (50.2952pt too wide) in paragraph at lines 1270--1270
+[]\OT1/cmr/m/n/12 Kevin McGuin-ness. \OT1/cmr/m/it/12 ee303-vbotsvr\OT1/cmr/m/n
+/12 . 2021. \OT1/cmr/m/sc/12 url\OT1/cmr/m/n/12 : []$\OT1/cmtt/m/n/12 https : /
+ / github . com / kevinmcguinness /
+ []
+
+! Undefined control sequence.
+\f@nch@olh ->\chaptername 
+                          \ \thechapter \\ \leftmark \strut 
+l.1270 
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\f@nch@olh ->\chaptername \ \thechapter 
+                                        \\ \leftmark \strut 
+l.1270 
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 18.85004pt, for example:
+(fancyhdr)                \setlength{\headheight}{18.85004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
+
+[62]
+! Undefined control sequence.
+\f@nch@olh ->\chaptername 
+                          \ \thechapter \\ \leftmark \strut 
+l.1272 \end{document}
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4565,7 +4351,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@olh ->\chaptername \ \thechapter 
                                         \\ \leftmark \strut 
-l.1182 \end{document}
+l.1272 \end{document}
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4581,55 +4367,41 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-6.85004pt}.
 
-[59] (./Report.aux)
+[63] (./Report.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
-
-Package rerunfilecheck Warning: File `Report.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Report.out':
-(rerunfilecheck)             Before: C45974596A977A28395F5729D4F3F2AA;9736
-(rerunfilecheck)             After:  4BDC17EF684433AEF039DE43D3D1E98A;9516.
+Package rerunfilecheck Info: File `Report.out' has not changed.
+(rerunfilecheck)             Checksum: E36F25CE4CBF559CBDF3AB193274B695;10201.
 Package logreq Info: Writing requests to 'Report.run.xml'.
 \openout1 = `Report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34298 strings out of 478268
- 648201 string characters out of 5846347
- 1388182 words of memory out of 5000000
- 51737 multiletter control sequences out of 15000+600000
+ 34400 strings out of 478268
+ 651624 string characters out of 5846347
+ 1390870 words of memory out of 5000000
+ 51808 multiletter control sequences out of 15000+600000
  477355 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,17n,80p,1227b,1414s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{subsubsection.11.2.1} has been referenced but does 
-not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsubsection.11.1.1} has been referenced but does 
-not exist, replaced by a fixed one
-
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<
-/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
-usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></
-usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
-sr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
-/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
-ocal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/loca
-l/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
-/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/t
-exlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/te
-xlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/tex
-live/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texl
-ive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on Report.pdf (59 pages, 17973049 bytes).
+ 84i,17n,80p,1228b,1414s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
+</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
+sr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
+/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/lo
+cal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
+al/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local
+/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/
+texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/t
+exlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/te
+xlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on Report.pdf (63 pages, 18210667 bytes).
 PDF statistics:
- 1046 PDF objects out of 1200 (max. 8388607)
- 877 compressed objects within 9 object streams
- 217 named destinations out of 1000 (max. 500000)
- 694 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1152 PDF objects out of 1200 (max. 8388607)
+ 969 compressed objects within 10 object streams
+ 244 named destinations out of 1000 (max. 500000)
+ 730 words of extra memory for PDF output out of 10000 (max. 10000000)
 

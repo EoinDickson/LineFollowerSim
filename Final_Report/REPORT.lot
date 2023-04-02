@@ -1,16 +1,17 @@
-\contentsline {table}{\numberline {1}{\ignorespaces Gym Hero Observation Space}}{18}{table.1}%
-\contentsline {table}{\numberline {2}{\ignorespaces Gym Hero Action Space (Difficult)}}{19}{table.2}%
-\contentsline {table}{\numberline {3}{\ignorespaces Gym Hero Reward Space}}{19}{table.3}%
-\contentsline {table}{\numberline {4}{\ignorespaces Doodle Jump Observation Space}}{21}{table.4}%
-\contentsline {table}{\numberline {5}{\ignorespaces Doodle Jump Action Space}}{21}{table.5}%
-\contentsline {table}{\numberline {6}{\ignorespaces Doodle Jump Reward Space}}{21}{table.6}%
-\contentsline {table}{\numberline {7}{\ignorespaces Panda Gym Observation Space}}{22}{table.7}%
-\contentsline {table}{\numberline {8}{\ignorespaces Panda Gym Action Space}}{23}{table.8}%
-\contentsline {table}{\numberline {9}{\ignorespaces Panda Gym Reward Space}}{23}{table.9}%
-\contentsline {table}{\numberline {10}{\ignorespaces Car Racing Observation Space}}{24}{table.10}%
-\contentsline {table}{\numberline {11}{\ignorespaces Car Racing Action Space (Continous)}}{25}{table.11}%
-\contentsline {table}{\numberline {12}{\ignorespaces Car Racing Action Space (Discrete)}}{25}{table.12}%
-\contentsline {table}{\numberline {13}{\ignorespaces Car Racing Reward Space}}{25}{table.13}%
-\contentsline {table}{\numberline {14}{\ignorespaces Observation space before debugging}}{44}{table.14}%
-\contentsline {table}{\numberline {15}{\ignorespaces Observation space containing the five sensor values}}{45}{table.15}%
-\contentsline {table}{\numberline {16}{\ignorespaces Discrete action space of size ten containing two forward speeds, two backward speeds and a stopped for each wheel}}{46}{table.16}%
+\contentsline {table}{\numberline {1}{\ignorespaces Gym Hero Observation Space}}{19}{table.1}%
+\contentsline {table}{\numberline {2}{\ignorespaces Gym Hero Action Space (Difficult)}}{20}{table.2}%
+\contentsline {table}{\numberline {3}{\ignorespaces Gym Hero Reward Space}}{20}{table.3}%
+\contentsline {table}{\numberline {4}{\ignorespaces Doodle Jump Observation Space}}{22}{table.4}%
+\contentsline {table}{\numberline {5}{\ignorespaces Doodle Jump Action Space}}{22}{table.5}%
+\contentsline {table}{\numberline {6}{\ignorespaces Doodle Jump Reward Space}}{22}{table.6}%
+\contentsline {table}{\numberline {7}{\ignorespaces Panda Gym Observation Space}}{23}{table.7}%
+\contentsline {table}{\numberline {8}{\ignorespaces Panda Gym Action Space}}{24}{table.8}%
+\contentsline {table}{\numberline {9}{\ignorespaces Panda Gym Reward Space}}{24}{table.9}%
+\contentsline {table}{\numberline {10}{\ignorespaces Car Racing Observation Space}}{25}{table.10}%
+\contentsline {table}{\numberline {11}{\ignorespaces Car Racing Action Space (Continous)}}{26}{table.11}%
+\contentsline {table}{\numberline {12}{\ignorespaces Car Racing Action Space (Discrete)}}{26}{table.12}%
+\contentsline {table}{\numberline {13}{\ignorespaces Car Racing Reward Space}}{26}{table.13}%
+\contentsline {table}{\numberline {14}{\ignorespaces Observation space before debugging}}{45}{table.14}%
+\contentsline {table}{\numberline {15}{\ignorespaces Observation space containing the five sensor values}}{47}{table.15}%
+\contentsline {table}{\numberline {16}{\ignorespaces Discrete action space of size ten containing two forward speeds, two backward speeds and a stopped for each wheel}}{48}{table.16}%
+\contentsline {table}{\numberline {17}{\ignorespaces Average Reward of Random and Trained neural network over a simulation time of ten seconds}}{53}{table.17}%

@@ -181,7 +181,7 @@ class LineFollowerEnv(gym.Env):
         self.player.sprite.vr = 0.01*self.player.sprite.m2p
 
         # Reset Time
-        self.max_time = 60*50
+        self.max_time = 60*10
 
         self.USING_HIS = False
         self.OBS = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]

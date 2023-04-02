@@ -35,9 +35,13 @@ for ep in range(episodes):
         # obs = [0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1,0, 0, 0, 1, 1, 0]
         # action, _states = model.predict([0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0])
         # print(action)
-        action, _states = model.predict(obs)
-        obs, rewards, done, info = env.step(action)
 
+        # action, _states = model.predict(obs)
+        # obs, rewards, done, info = env.step(action)
+        action = env.action_space.sample()
+        observation, rewards, done, info = env.step(action)
+    if done:
+            print(str(rewards))
         # obs, rewards, done, info = env.step(action)
         # print(rewards)
         # print(obs)
